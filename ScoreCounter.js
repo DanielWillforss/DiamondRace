@@ -13,7 +13,7 @@ class ScoreCounter {
         this.drawScoreColor();
         this.drawScoreNumber();
     }
-
+  
     updateScore() {
         if(this.currentScore < this.maxScore) {
             this.currentScore++;
